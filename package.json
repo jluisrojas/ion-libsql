@@ -1,0 +1,22 @@
+{
+  "name": "hono-libsql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@libsql/client": "^0.6.0",
+    "drizzle-orm": "^0.30.10",
+    "hono": "^4.2.9",
+    "sst": "ion"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20240502.0",
+    "drizzle-kit": "^0.20.17"
+  }
+}
